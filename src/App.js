@@ -7,6 +7,7 @@ const trackingId = "UA-2283173-1"; // Replace with your Google Analytics trackin
 export default function App() {
   React.useEffect(() => {
     ReactGA.initialize(trackingId);
+    (window.adsbygoogle = window.adsbygoogle || []).push({});
   }, []);
 
   return (
@@ -16,6 +17,14 @@ export default function App() {
       <h3>
         Contact: <a href="mailto:sales@teamleader.se">sales@teamleader.se</a>
       </h3>
+      <div className="GoogleAdSense">
+        <ins
+          className={`adsbygoogle TeamleaderGoogleAd`}
+          style={{ display: "block" }}
+          data-ad-client="ca-pub-8789294109483772"
+          data-ad-slot="1234567890"
+        ></ins>
+      </div>
     </div>
   );
 }

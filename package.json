@@ -4,6 +4,7 @@
   "description": "React example starter project",
   "keywords": ["react", "starter"],
   "main": "src/index.js",
+  "homepage": "https://teamleader.se",
   "dependencies": {
     "react": "16.12.0",
     "react-dom": "16.12.0",
