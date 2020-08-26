@@ -1,5 +1,9 @@
 import React from "react";
+import ReactGA from "react-ga";
 import "./styles.css";
+
+const trackingId = "UA-2283173-1"; // Replace with your Google Analytics tracking ID
+ReactGA.initialize(trackingId);
 
 export default function App() {
   return (
